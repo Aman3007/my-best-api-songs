@@ -30,7 +30,7 @@ if(select){
 }
 
 let page = Number(req.query.page)||1
-let limit= Number(req.query.limit)||5
+let limit= Number(req.query.limit)||8
 let skip =(page-1)*limit;
 apidata=apidata.skip(skip).limit(limit);
 

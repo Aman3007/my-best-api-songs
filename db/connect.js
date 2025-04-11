@@ -1,5 +1,5 @@
 const mongoose =require("mongoose");
-//uri = "mongodb+srv://amanchauhan30072002:NsP7HmSDWzLME1iO@amanapi.dvjqw.mongodb.net/?retryWrites=true&w=majority&appName=Amanapi";
+// uri = "";
 const connectDB=(uri)=>{
     console.log("connect")
     return mongoose.connect(uri,{
@@ -10,3 +10,5 @@ const connectDB=(uri)=>{
 };
 
 module.exports=connectDB;
+
+
